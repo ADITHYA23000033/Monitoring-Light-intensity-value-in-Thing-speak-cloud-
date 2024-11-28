@@ -94,6 +94,7 @@ Prototype and build IoT systems without setting up servers or developing web sof
 
  
 # PROGRAM:
+~~~
 #include <WiFi.h>
 
 #include "ThingSpeak.h" // always include thingspeak header file after other header files and custom macros
@@ -152,6 +153,7 @@ void loop()
   ThingSpeak.writeField(myChannelNumber, ChannelField, lightPercentage, myWriteAPIKey);
   delay(5000); 
 }
+~~~
 # CIRCUIT DIAGRAM:
 ![image](https://github.com/user-attachments/assets/2218b3cd-3af6-47ea-a25b-51ed99db68e1)
 
